@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: "med";
+  src: local("med"), url(./fonts/NZBAAY+TTFirsNeue-Medium.ttf);
+}
+@font-face {
+  font-family: "reg";
+  src: local("reg"), url(./fonts/QAEFQS+TTFirsNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "thin";
+  src: local("thin"), url(./fonts/AMELAY+TTFirsNeue-Thin.ttf);
+}
+

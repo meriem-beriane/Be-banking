@@ -1,38 +1,316 @@
-.App {
-  text-align: center;
+/* header css */
+
+.header {
+  position: relative;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  background: transparent;
+}
+.header {
+  position: relative;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  background: transparent;
+}
+.container {
+  max-width: 122.5rem;
+  margin: 0 auto;
+  padding: 0 7rem;
+  background: transparent;
+}
+.heroL{
+ 
+  
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
+  height: 7.2rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-toggle {
+  position: absolute;
+  top: 50%;
+
+  cursor: pointer;
+  z-index: 1500;
+}
+.headline{
+  font-family: reg;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 5rem;
+  
+}
+.animationUp{
+  opacity: 0;
+  animation: fadeUp 0.7s forwards; 
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.line{
+  margin-top: -1rem;
+  font-size: 2rem;
+  color: #000;
+}
+.search{
+  width: 22px;
+  margin-left: -1.6rem;
+}
+.logo {
+  
+  width: 2rem;
+  
+ 
+  z-index: 10;
+}
+.logoH {
+  margin-top: 4rem;
+  width: 6rem;
+  
+ 
+ 
+}
+.log{
+  
+  width: 4.3rem;
+  margin: 0 5px;
+  
+  
+ 
+ 
+}
+.no-border{
+  border-bottom: 2px solid #8a8a8a;
+ 
+  
+}
+.nav {
+  justify-content: space-between;
+ 
+
+}
+.donnees{
+  text-align: left;
+  font-size: 13px;
+  font-family: reg;
+  margin-bottom: 1rem;
+  
+
+}
+.donContainer{
+  padding: 6rem 3rem;
+}
+.nav-list {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+
+  text-transform: uppercase;
+
+  list-style: none;
+  position: initial;
+  width: initial;
+  height: initial;
+  background-color: transparent;
+  padding: 0;
+  margin-top: 7px;
+  justify-content: initial;
+  flex-direction: row;
+  transform: initial;
+  transition: initial;
+  
+  color:#8a8a8a;
+ 
+  
+}
+.nav-item {
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family: med;
+  color:#8a8a8a;
+  padding: 0 1px;
+  padding-bottom: 4px;
+  text-decoration: none;
+
+ 
+}
+
+.nav-link {
+}
+
+.colorW {
+  color: rgba(255, 255, 255, 0.733);
+  border: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.colorB {
+  color:#8a8a8a;
+  border: none;
+  font-size: 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: #8a8a8a;
+  margin-right: 1rem;
+  
+  
+}
+.btn3 {
+  background-color: #fff;
+  width: 16rem;
+  text-decoration: none;
+  font-size: 10px;
+  
+  text-transform: uppercase;
+  
+  color: #8a8a8a;
+  font-weight: 900;
+  position: relative;
+  transition: color 0.5s;
+  border: 1px solid #8a8a8a;
+  margin-top: 40px;
+  padding: 13px 1rem;
+  
+  display: inline-block;
+  font-family: reg;
+  
+
+  letter-spacing: 3px;
+  
+}
+.loginElm{
+  margin-top: 1rem;
+}
+.btn4 {
+  background-color: #fff;
+  width: 16rem;
+  text-decoration: none;
+  font-size: 10px;
+  
+  text-transform: uppercase;
+  
+  color: #5fe0a2;
+  font-weight: 900;
+  position: relative;
+  
+  border: 1px solid #5fe0a2;
+  margin-top: 34px;
+  padding: 13px 1rem;
+  
+  display: inline-block;
+  font-family: reg;
+  
+
+  letter-spacing: 3px;
+  
+  
+  
+}
+.btn3:hover{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.btn4:hover{
+  background-color: #000;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.btn2 {
+  background-color: #5fe0a2;
+  margin-left: 1rem;
+  
+  
+}
+.single-animation{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.headline1{
+  font-family: thin;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  opacity: 0;
+  animation: fadeDown 0.5s forwards;
+  animation-delay: 0.8s;
+}
+.buttons{
+  opacity: 0;
+  animation: fadeDown 0.7s forwards;
+  animation-delay: 1.2s;
+}
+.cta-btn {
+  text-decoration: none;
+  font-size: 0.5rem;
+  font-family: reg;
+  text-transform: uppercase;
+  
+  color: #fff;
+  font-weight: 900;
+  position: relative;
+  transition: color 0.5s;
+  border: 1px solid transparent;
+  margin-top: 30px;
+  padding: 13px 1rem;
+  
+  display: inline-block;
+  font-family: reg;
+  width: 15rem;
+
+  letter-spacing: 3px;
+  
+}
+.inline{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-btn:hover{
+  background-color: #000;
+}
+@keyframes fadeUp {
+  0% {
+    transform: translateY(3rem);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+@keyframes fadeDown {
+  0% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel] {
+  height: 3.5rem;
+  width: 16rem;
+  border: none;
+  font-family: reg;
+  border-bottom: 1px solid #000;
 }
